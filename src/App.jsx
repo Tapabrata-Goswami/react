@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route index excet element={<Home />} />
-        <Route element={<About />} />
+        <Route index path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </BrowserRouter>
   )
